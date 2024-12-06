@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'first_screen.dart';
 import 'second_screen.dart';
+import 'third_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -10,10 +11,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Navigation Codelab',
       theme: ThemeData(primarySwatch: Colors.blue),
-      initialRoute: '/', 
+      initialRoute: '/', // Default route (First Screen)
       routes: {
-        '/': (context) => FirstScreen(), 
-        '/second': (context) => SecondScreen(), 
+        '/': (context) => FirstScreen(), // First Screen
+        '/second': (context) => SecondScreen(), // Second Screen
+        '/third': (context) => ThirdScreen(), // Third Screen
       },
     );
   }
