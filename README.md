@@ -29,7 +29,7 @@ Pilih salah satu menu (First Screen, Second Screen, atau Third Screen) untuk ber
 
 <!-- ///////////////////////////////////////////////////// -->
 
-Struktur Navigasi
+**Struktur Navigasi**
 Navigasi dalam aplikasi ini menggunakan route names yang telah ditentukan dalam file main.dart:
 
 / : Rute menuju First Screen.
@@ -39,7 +39,7 @@ Setiap layar memiliki drawer menu yang sama untuk mempermudah navigasi. Drawer i
 
 <!-- ///////////////////////////////////////////////////// -->
 
-Pendekatan Implementasi
+**Pendekatan Implementasi**
 Penggunaan MaterialApp dengan Rute Dinamis
 Aplikasi ini menggunakan properti routes dalam MaterialApp untuk mendefinisikan rute dinamis. Rute diatur sebagai pasangan key-value, di mana key adalah string rute, dan value adalah widget layar.
 
@@ -54,7 +54,7 @@ Navigator.pop() digunakan untuk menutup drawer sebelum berpindah layar.
 
 <!-- ///////////////////////////////////////////////////// -->
 
-Tantangan dalam Implementasi
+**Tantangan dalam Implementasi**
 Kesalahan Penamaan Rute
 Pada awalnya, penggunaan rute seperti // dan /// menyebabkan error karena bukan nama rute yang valid. Tantangan ini diselesaikan dengan mengganti rute menjadi /second dan /third yang lebih jelas dan mudah dimengerti.
 
@@ -66,7 +66,7 @@ Menyusun menu navigasi yang jelas agar pengguna dapat dengan mudah memahami fung
 
 <!-- ///////////////////////////////////////////////////// -->
 
-Fitur Utama
+**Fitur Utama**
 Navigasi Multi-Screen
 Tiga layar yang terhubung dengan navigasi berbasis rute dan drawer.
 
