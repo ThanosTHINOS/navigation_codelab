@@ -31,6 +31,15 @@ class SecondScreen extends StatelessWidget {
               title: Text('Second Screen'),
               onTap: () {
                 Navigator.pop(context); // Close the drawer
+                Navigator.pushNamed(context, '/second'); // Navigate to Second Screen
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.bed),
+              title: Text('Third Screen'),
+              onTap: () {
+                Navigator.pop(context); // Close the drawer
+                Navigator.pushNamed(context, '/third'); // Navigate to Third Screen
               },
             ),
           ],
